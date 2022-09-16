@@ -1,0 +1,18 @@
+<?php
+    
+    function inicio() 
+    {
+		
+    $idade = readline("Digite sua idade em ANOS:\n");
+    
+    }
+    function comparar() {
+    
+    if ($idade<18) {
+        echo "\nVocê possui menos que 18 anos.";
+    }
+    else {}
+        echo "\nVocê possui mais que 18 anos.";
+    
+    }
+?>

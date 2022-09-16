@@ -1,0 +1,47 @@
+
+
+
+NIKELLY SILVA
+
+ >EXERCÍCIO 1
+
+programa {
+	funcao inicio() 
+	{
+		real r, area, PI
+		PI= 3.14
+		
+		escreva(" Digite o valor do raio: ")
+		leia(r)
+		
+		area = PI* (r*r) 
+		
+		escreva(" O valor da area do circulo é:", area)
+		
+			
+	}
+}
+
+
+
+ >EXERCÍCIO 2
+
+
+programa {
+	funcao inicio() {
+		
+		inteiro i, mult, s
+		s = 31536000
+		
+		
+		escreva("Digite a sua idade atual (anos):")
+		leia(i)
+		
+		mult = i*s
+		
+		escreva("A sua idade em segundos é igual a : ", mult)
+		
+		
+	}
+}
+

@@ -1,0 +1,46 @@
+atividade 3 PHP
+
+<?php
+    class loja
+    {
+
+        // atributos da Loja
+        public $nome;
+        public $cnpj;
+        public $caixa; 
+        
+        // contrutor da loja
+        public function __construct(string $nome, int $cnpj, float $caixa = 0)
+        {
+            $this->nome = $nome;
+            $this->cnpj = $cnpj;
+            $this->caixa = $caixa;
+        }
+
+        // metodos da loja
+        public function deposito(float $valor)
+        {
+            $this->caixa += $valor;
+        }
+
+        public function obrigaçao(float $valor)
+        {
+            if ($this->caixa >= $valor) $this->$caixa -= $valor;
+            else echo "Sem dinheiro para compras novos produtos.";
+        }
+    }
+
+        //  criação do objeto
+
+$empresario = new loja("DoceSonhar",10987654321098,50000);
+
+
+        // utilização dos métodos do objeto 
+$empresario->deposito(1000);
+$empresario->obrigaçao(50);
+print_r($empresario);
+
+$empresario->obrigaçao(1000);
+    print_r($empresario);
+
+?>

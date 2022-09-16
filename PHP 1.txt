@@ -1,0 +1,28 @@
+ATIVIDADE PHP 
+
+atividade 1:
+
+<?php
+
+$pi = 3.14;
+$raio = readline("coloque um valor para o raio: "); 
+$area = $pi * ($raio * $raio);
+echo "O valor da area é igual: " . $area . "\n";
+
+?>
+
+atividade 2: 
+
+<?php
+
+# 1 minuto = 60 segundos
+# 1 hora = 60 minutos = 3.600 segundos
+# 1 dia = 24 horas = 86.400 segundos 
+# 1 ano = 365 dias = 31.536.000 segundos 
+
+$seg_em_ano = 31536000 ;
+$idade = readline ("Digite sua idade em ANOS: ");
+$Calcula_Idade = $seg_em_ano * $idade ;
+echo "Sua idade em segundos é igual: " . $Calcula_Idade . "\n";
+
+?>

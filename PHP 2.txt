@@ -1,0 +1,52 @@
+atividade PHP
+
+exer1)
+    
+<?php
+
+   $idade = inicio();
+   
+function inicio() {}
+
+   $idade = readline("Digite sua idade em ANOS:");
+    
+    function comparar($idade) {
+        if ($idade<18 and $idade>1) {
+            echo "\nVocê possui menos que 18 anos.";
+        }
+
+        else {
+            echo "\nVocê possui mais que 18 anos.";
+        }
+    }
+
+    comparar($idade);
+
+?>
+
+
+
+exerc3)
+
+<?php
+
+    $numero = inicio();
+   
+    function inicio() {}
+
+    $numero = readline("Digite um numero qualquer:");
+    
+    function verificacao($numero) {
+        
+        if ($numero/2 and $numero % 2 == 0) {
+            echo "\nEsse número é par.";
+        }
+
+        else {
+            echo "\nEsse número é ímpar.";
+        }
+    }
+
+    verificacao($numero);
+
+?>

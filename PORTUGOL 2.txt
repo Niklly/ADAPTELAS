@@ -1,0 +1,138 @@
+Nikelly Silva
+atividade 2
+
+>exerc.1
+
+
+programa {
+	funcao inicio() {
+		
+		inteiro idade
+		escreva("\nEscreva a sua idade:")
+		leia(idade)
+		
+		comparar(idade)
+	}
+	
+	funcao comparar(inteiro idade) {
+	    
+	    se (idade<18) {
+	        escreva("\nVocê possui menos que 18 anos.")
+	    }
+	    senao {
+	        escreva("\nVocê possui mais que 18 anos.")
+	    }
+	}
+}
+
+
+
+
+
+>exerc.2
+
+programa {
+	funcao inicio() 
+	{
+	
+		real A,B,conta
+		
+		escreva("\nDigite um valor para A:")
+		leia(A)
+		escreva("\nDigite um valor para B:")
+		leia(B)
+		
+		conta = A/B
+	    dividir(A,B,conta)
+		
+	}
+	
+	funcao dividir (real A, real B, real conta) {
+	    
+	    
+	    se (B==0) {
+	        escreva("\nImpossível de dividir por zero.")
+	    }
+	    
+	    senao {
+	        escreva("\nO resultado da divisão será:",conta)
+	    }
+	}
+}	
+	
+
+>exerc.3
+
+
+programa {
+	funcao inicio() {
+		
+		inteiro numero
+		escreva("\nEscreva um numero:\n")
+		leia(numero)
+		
+		verificacao(numero)
+	}
+	
+	funcao verificacao(inteiro numero) {
+	    
+	    se (numero % 2 == 0) {
+	        escreva("\nEsse número é par.")
+	    }
+	    
+	    senao {
+	        escreva("\nEsse numero é ímpar.")
+	    }
+	}
+}
+
+
+
+
+>exerc.4
+
+programa {
+	funcao inicio() 
+	{
+		inteiro X, Y
+		escreva("\nDigite um numero para X:")
+		leia(X)
+		escreva("\nDigite um valor para Y:")
+		leia(Y)
+		
+	    verificar(X,Y)
+	}
+	
+	funcao verificar(inteiro X, inteiro Y) 
+	{
+	    inteiro i, conta = 1
+	    
+	    se (X<=1) {
+	       escreva("\nO X deve ser maior que 1.")
+	    }
+	    
+	     senao { 
+	         para ( i = 0; i<X; i++) {
+	         conta = conta * Y
+	   }
+	     escreva("\nO resultado será:",conta)
+	    }
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
